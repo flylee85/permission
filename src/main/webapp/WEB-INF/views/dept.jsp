@@ -274,7 +274,7 @@
                 e.stopPropagation();
                 var deptId = $(this).attr("data-id");
                 $("#dialog-dept-form").dialog({
-                    model: true,
+                    modal: true,
                     title: "编辑部门",
                     open: function(event, ui) {
                         $(".ui-dialog-titlebar-close", $(this).parent()).hide();
@@ -379,7 +379,7 @@
 
         $(".user-add").click(function() {
             $("#dialog-user-form").dialog({
-                model: true,
+                modal: true,
                 title: "新增用户",
                 open: function(event, ui) {
                     $(".ui-dialog-titlebar-close", $(this).parent()).hide();
@@ -428,7 +428,7 @@
                 e.stopPropagation();
                 var userId = $(this).attr("data-id");
                 $("#dialog-user-form").dialog({
-                    model: true,
+                    modal: true,
                     title: "编辑用户",
                     open: function(event, ui) {
                         $(".ui-dialog-titlebar-close", $(this).parent()).hide();
@@ -468,7 +468,7 @@
 
         $(".dept-add").click(function() {
             $("#dialog-dept-form").dialog({
-                model: true,
+                modal: true,
                 title: "新增部门",
                 open: function(event, ui) {
                     $(".ui-dialog-titlebar-close", $(this).parent()).hide();

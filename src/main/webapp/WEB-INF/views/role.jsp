@@ -204,7 +204,7 @@
                 e.stopPropagation();
                 var roleId = $(this).attr("data-id");
                 $("#dialog-role-form").dialog({
-                    model: true,
+                    modal: true,
                     title: "修改角色",
                     open: function(event, ui) {
                         $(".ui-dialog-titlebar-close", $(this).parent()).hide();
@@ -346,7 +346,7 @@
         
         $(".role-add").click(function () {
             $("#dialog-role-form").dialog({
-                model: true,
+                modal: true,
                 title: "新增角色",
                 open: function(event, ui) {
                     $(".ui-dialog-titlebar-close", $(this).parent()).hide();

@@ -261,7 +261,7 @@
 
         $(".aclModule-add").click(function () {
             $("#dialog-aclModule-form").dialog({
-                model: true,
+                modal: true,
                 title: "新增权限模块",
                 open: function(event, ui) {
                     $(".ui-dialog-titlebar-close", $(this).parent()).hide();
@@ -415,7 +415,7 @@
                 e.stopPropagation();
                 var aclModuleId = $(this).attr("data-id");
                 $("#dialog-aclModule-form").dialog({
-                    model: true,
+                    modal: true,
                     title: "编辑权限模块",
                     open: function(event, ui) {
                         $(".ui-dialog-titlebar-close", $(this).parent()).hide();
@@ -546,7 +546,7 @@
                 e.stopPropagation();
                 var aclId = $(this).attr("data-id");
                 $("#dialog-acl-form").dialog({
-                    model: true,
+                    modal: true,
                     title: "编辑权限",
                     open: function(event, ui) {
                         $(".ui-dialog-titlebar-close", $(this).parent()).hide();
@@ -585,7 +585,7 @@
 
         $(".acl-add").click(function() {
             $("#dialog-acl-form").dialog({
-                model: true,
+                modal: true,
                 title: "新增权限",
                 open: function(event, ui) {
                     $(".ui-dialog-titlebar-close", $(this).parent()).hide();
